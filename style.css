@@ -1,0 +1,169 @@
+*  {
+    box-sizing: border-box;
+}
+
+.left {
+    margin-right: 3rem;
+    width:50%;
+}
+
+.right {
+    width:50%;
+}
+
+.movieName  {
+    display: flex;
+}
+
+.movieimage  {
+    height:25rem;
+}
+
+.container  {
+    display:flex;
+}
+
+#details  {
+    margin-top: 3rem;
+}
+
+.card-text  {
+    font-size: 1rem;
+}
+
+#ratingDetails {
+    font-size: 1rem;
+}
+
+span  {
+    font-weight: bold;
+}
+
+.mn  {
+    font-size: 1.25rem;
+}
+
+@media all and (max-width:767px) {
+    .container  {
+        flex-direction: column;
+    }
+
+    .left  {
+        width:100%;
+        margin-right:1rem ;
+    }
+
+    .mn  {
+        margin-bottom:1rem;
+    }
+
+    .movieName {
+        display:block;
+    }
+    #moviename {
+        width:100%;
+    }
+
+    #details  {
+        margin-top:1.5rem;
+    }
+
+    .right  {
+        margin-top: 3rem;
+        width:100%;
+    }
+
+    .card-text  {
+        font-size: 0.8rem;
+    }
+    
+    #ratingDetails {
+        font-size: 0.8rem;
+    }
+    
+}
+
+
+@media  all and (min-width:768px)  {
+    .movieName  {
+        display:block;
+    }
+
+    #moviename {
+        width:100%;
+    }    
+    .mn  {
+        margin-bottom:1rem;
+    }     
+    .card-text  {
+        font-size: 0.9rem;
+    }
+    
+    #ratingDetails {
+        font-size: 0.9rem;
+    }
+    .movieimage  {
+        height:20rem;
+    }
+    #details  {
+        margin-top:2rem;
+    }
+
+
+}
+
+@media  all and (min-width:1200px)  {
+    .movieName  {
+        display:block;
+    }    
+
+    #moviename {
+        width:100%;
+    }    
+    .mn  {
+        margin-bottom:1rem;
+        font-size: 1.75rem !important;
+    }     
+    .card-text  {
+        font-size: 0.9rem;
+    }
+    
+    #ratingDetails {
+        font-size: 0.9rem;
+    }
+    
+    #details  {
+        margin-top:2rem;
+    }
+    .card-text  {
+        font-size: 1.2rem;
+        font-weight: lighter;
+    }
+    
+    #ratingDetails {
+        font-size: 1.2rem;
+        font-weight: lighter;
+    }
+    .movieimage  {
+        height:25rem;
+    }
+
+
+}
+
+@media  all and (min-width:1400px)  {
+    #moviename {
+        width:65% ;        
+    }
+    .mn  {
+        margin-bottom: 0;
+        vertical-align: middle;
+    }
+    .movieName {
+        display:flex;
+    }
+
+}
+
+
+

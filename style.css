@@ -43,6 +43,10 @@ span  {
     font-size: 1.25rem;
 }
 
+.card-title {
+    font-size: 1.6rem;
+}
+
 @media all and (max-width:767px) {
     .container  {
         flex-direction: column;
@@ -80,6 +84,9 @@ span  {
     #ratingDetails {
         font-size: 0.8rem;
     }
+    .card-title {
+        font-size: 1.2rem;
+    }
     
 }
 
@@ -107,6 +114,9 @@ span  {
     }
     #details  {
         margin-top:2rem;
+    }
+    .card-title {
+        font-size: 1.2rem;
     }
 
 
@@ -147,7 +157,9 @@ span  {
     .movieimage  {
         height:25rem;
     }
-
+    .card-title {
+        font-size: 1.5rem;
+    }
 
 }
 
